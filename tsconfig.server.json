@@ -5,10 +5,18 @@
     "module": "CommonJS",
     "outDir": "dist",
     "target": "ES2021",
-    "lib": ["ES2021", "DOM"],
+    "lib": [
+      "ES2021",
+      "DOM"
+    ],
     "isolatedModules": false,
     "checkJs": false,
-    "plugins": []
+    "plugins": [],
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
   },
-  "include": ["next-env.d.ts", "src/server/prodServer.cts"]
+  "include": [
+    "next-env.d.ts",
+    "src/server/prodServer.cts"
+  ]
 }
